@@ -1,0 +1,11 @@
+path: /home/u2019110058/detect_looks/datasets/data  # dataset root dir
+#path: E:\detect_looks\datasets\data  # dataset root dir
+train: images/train  # train images (relative to 'path') 128 images
+val: images/train  # val images (relative to 'path') 128 images
+test:  # test images (optional)
+
+# Classes
+names:
+  0: bubble
+  1: stripe
+  2: spot
